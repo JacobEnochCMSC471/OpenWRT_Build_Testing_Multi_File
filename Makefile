@@ -3,9 +3,9 @@ all: main
  
 # These variables hold the name of the compilation tool, the compilation flags and the link flags
 # We make use of these variables in the package manifest
-CC = gcc
-CFLAGS = -Wall
-LDFLAGS = 
+# CC = gcc
+CFLAGS += -Wall
+# LDFLAGS +=
 
 # This variable identifies all header files in the directory; we use it to create a dependency chain between the object files and the source files
 # This approach will re-build your application whenever any header file changes. In a more complex application, such behavior is often undesirable
