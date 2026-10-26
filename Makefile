@@ -1,7 +1,7 @@
 # Global target; when 'make' is run without arguments, this is what it should do
 all: main
 
-PREFIX?=/usr/local
+PREFIX ?= /usr/local
 
 # These variables hold the name of the compilation tool, the compilation flags and the link flags
 # We make use of these variables in the package manifest
